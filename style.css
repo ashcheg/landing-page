@@ -33,14 +33,13 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
-    justify-content: center;
-    align-items: center;
     background-color: #1F2937;
 }
 
 .hero-left {
     display: flex;
     flex-flow: column;
+    gap: 5px;
 }
 
 .hero-text-second {
