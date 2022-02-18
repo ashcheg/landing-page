@@ -34,23 +34,20 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 100px 170px;
+    padding: 70px 170px;
     gap: 40px;
 }
 
-.img-hero {
-    display: flex;
-    max-height: 300px;
-    align-items: center;
-    justify-content: center;
-    color: white;
+img {
+    max-height: 400px;
+    min-height: 100px;
 }
 
 .hero-left {
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 30px;
     align-items: flex-start;
 }
 
@@ -92,50 +89,58 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 70px;
     padding: 10px 170px;
 }
 
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
-    font-style: italic;
     color: #1F2937;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    padding: 100px 170px;
+    padding: 100px 250px;
+}
+
+.quote-text {
+    font-style: italic;
 }
 
 .author {
     align-self: flex-end;
+    font-weight: bold;
 }
 
 .action {
-    margin: 40px 170px;
-    padding: 30px 150px;
+    margin: 70px 170px;
+    padding: 35px 110px;
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     align-items: center;
 }
 
 .action-title {
     font-size: 24px;
+    margin: 0px;
+    margin-bottom: 10px;
 }
 
 .action-text {
     font-size: 18px;
+    margin: 0px;
 }
 
 button {
     border-color: white;
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     color: white;
     flex-shrink: 0;
 }
@@ -146,6 +151,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    color: white;
 }
 
 ul {
