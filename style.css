@@ -1,14 +1,12 @@
-img {
-    width: 27%
-}
-
 body {
     display: flex;
     flex-flow: column;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 .header {
+    padding: 10px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +21,7 @@ a {
 
 .header-links {
     display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -34,12 +33,28 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 10px 150px;
+}
+
+.img-hero {
+    display: flex;
+    max-height: 300px;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 .hero-left {
     display: flex;
     flex-flow: column;
+    align-items: center;
     gap: 5px;
+}
+
+.hero-text-main {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .hero-text-second {
@@ -69,10 +84,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 100px;
 }
 
 .quote {
+    background-color: #E5E7EB;
+    font: 36px;
+    font-style: italic;
+    color: #1F2937;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -84,11 +103,34 @@ a {
 }
 
 .action {
+    margin: 40px 150px;
+    padding: 30px 50px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.action-title {
+    font-size: 24px;
+}
+
+.action-text {
+    font-size: 18px;
+}
+
+button {
+    border-color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
 }
 
 .footer {
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +139,8 @@ a {
 
 ul {
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 li {
