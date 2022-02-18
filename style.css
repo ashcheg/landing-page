@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    padding: 10px 150px;
+    padding: 10px 170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,6 +22,7 @@ a {
 .header-links {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .logo {
@@ -33,7 +34,8 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 10px 150px;
+    padding: 100px 170px;
+    gap: 40px;
 }
 
 .img-hero {
@@ -47,8 +49,9 @@ a {
 .hero-left {
     display: flex;
     flex-flow: column;
-    align-items: center;
-    gap: 5px;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
 }
 
 .hero-text-main {
@@ -67,10 +70,14 @@ a {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 .info-title {
-
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px;
 }
 
 .square {
@@ -82,20 +89,23 @@ a {
 
 .tiles {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 100px;
+    padding: 10px 170px;
 }
 
 .quote {
     background-color: #E5E7EB;
-    font: 36px;
+    font-size: 36px;
     font-style: italic;
     color: #1F2937;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    padding: 100px 170px;
 }
 
 .author {
@@ -103,8 +113,8 @@ a {
 }
 
 .action {
-    margin: 40px 150px;
-    padding: 30px 50px;
+    margin: 40px 170px;
+    padding: 30px 150px;
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
@@ -127,6 +137,7 @@ button {
     border-radius: 5px;
     padding: 5px 10px;
     color: white;
+    flex-shrink: 0;
 }
 
 .footer {
@@ -144,11 +155,14 @@ ul {
 }
 
 li {
-    max-width: 100px;
     display: flex;
     flex-flow: column;
     align-items: center;
     gap: 5px;
+}
+
+.tiles li {
+    width: 150px;
 }
 
 .tiles-text {
